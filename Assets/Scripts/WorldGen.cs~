@@ -1,0 +1,46 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class WorldGen : MonoBehaviour {
+
+    private BlockManager blockManager;
+    private int width = 64;
+    private int height = 128;
+    private Block[,] blocks;
+
+    private void Start()
+    {
+        blockManager = GameObject.Find("GameManager").GetComponent<BlockManager>();
+        blocks = new Block[width, height];
+
+        //GenerateBlocks();
+        //SpawnBlocks();
+    }
+
+    //private void GenerateBlocks()
+    //{
+    //    for(int x = 0; x < width; x++)
+    //    {
+    //        for(int y = 0; y < height; y++)
+    //        {
+    //            blocks[x, y] = blockManager.FindBlock(3); 
+    //        }
+    //    }
+    //}
+
+    //private void SpawnBlocks()
+    //{
+    //    for (int x = 0; x < width; x++)
+    //    {
+    //        for (int y = 0; y < height; y++)
+    //        {
+    //            GameObject blockGO = new GameObject();
+    //            SpriteRenderer sr = blockGO.AddComponent<SpriteRenderer>();
+    //            sr.sprite = blocks[x, y].sprite;
+    //            blockGO.name = blocks[x, y].display_name;
+    //            blockGO.transform.position = new Vector3(x, y);
+    //        }
+    //    }
+    //}
+
+}

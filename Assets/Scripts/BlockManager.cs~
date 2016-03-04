@@ -1,0 +1,28 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class BlockManager : MonoBehaviour{
+
+    public List<Block> Blocks;
+
+    //private void Start()
+    //{
+    //    byte blockID = 1;
+    //    string blockName = FindBlock(blockID).display_name;
+    //    Debug.Log(blockName);
+    //}
+
+    public Block FindBlock(byte id)
+    {
+        foreach(Block block in Blocks)
+        {
+            if(block.id == id)
+            {
+                return block;
+            }
+        }
+        return null;
+    }
+
+}

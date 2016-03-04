@@ -1,0 +1,60 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Player : MonoBehaviour
+{
+
+    public int direction = 0;
+    public KeyCode leftKey, rightKey, jumpKey;
+    public float moveSpeed = 3f;
+    public float jumpForce = 250f;
+
+    private Rigidbody2D rbody;
+
+	// Use this for initialization
+	void Start ()
+    {
+        rbody = GetComponent<Rigidbody2D>(); 
+	}
+	
+	// Update is called once per frame
+	void Update ()
+    {
+        UpdateControls();
+        UpdateMovement();
+	}
+
+    private void UpdateControls()
+    {
+        //Movement Control
+        if(Input.GetKey(leftKey))
+        {
+            direction = -1;
+        }
+        else if(Input.GetKey(rightKey))
+        {
+            direction = 1;
+        }
+        else
+        {
+            direction = 0;
+        }
+
+        //Jump controls
+        if(Input.GetKeyDown(jumpKey))
+        {
+            Jump();
+        }
+    }
+
+    private void UpdateMovement()
+    {
+        rbody.velocity = new Vector2(moveSpeed * direction, rbody.velocity.y);
+
+    }
+
+    private void Jump()
+    {
+        rbody.AddForce(transform.up * jumpForce);
+    }
+}
