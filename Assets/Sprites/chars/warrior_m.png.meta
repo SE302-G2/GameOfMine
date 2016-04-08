@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 8c624bce4458a424eaabf46ab2c090cf
+timeCreated: 1458080455
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: warrior_m_0
+    21300002: warrior_m_1
+    21300004: warrior_m_2
+    21300006: warrior_m_3
+    21300008: warrior_m_4
+    21300010: warrior_m_5
+    21300012: warrior_m_6
+    21300014: warrior_m_7
+    21300016: warrior_m_8
+    21300018: warrior_m_9
+    21300020: warrior_m_10
+    21300022: warrior_m_11
+    21300024: warrior_m_12
+    21300026: warrior_m_14
+    21300028: warrior_m_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 64
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: warrior_m_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 108
+        width: 27
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 108
+        width: 29
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 108
+        width: 30
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 71
+        width: 27
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 72
+        width: 27
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 27
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 30
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 36
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 36
+        width: 30
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 28
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 26
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: warrior_m_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 30
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
